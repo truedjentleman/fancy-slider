@@ -47,6 +47,6 @@ function changeSlide(direction) {   // event handler. Choose the click 'directio
      
     // to slide right part of document
     mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`;   // add the property to 'mainSlide' element
-    // to slide right part of document
+    // to slide left part of document
     sidebar.style.transform = `translateY(${activeSlideIndex * height}px)`;   // add the property to 'sideBar' element
 }
